@@ -7,7 +7,7 @@ Ensure your local machine meets the following criteria before opening the projec
 1.  **Unity Editor Version:**
     * Open **Unity Hub**.
     * Find the **Editor Version** required by the project (often listed in the project's root `ProjectSettings/ProjectVersion.txt`).
-    * If you don't have it, install the correct version (e.g., 2022.3 LTS).
+    * If you don't have it, install the correct version.
 2.  **Android Build Support:**
     * Verify the required Unity Editor version has the **Android Build Support** module installed, including **Android SDK & NDK Tools** and **OpenJDK**. (Manage Installs > Add Modules).
 3.  **Meta Quest Prerequisites:**
