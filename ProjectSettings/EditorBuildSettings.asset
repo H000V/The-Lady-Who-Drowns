@@ -1,22 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!1045 &1
-EditorBuildSettings:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/MenuArea.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
-    path: Assets/Scenes/Playground.unity
-    guid: a6c679dddf1a66643a32d3334d2f9a7b
-  m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 2723efd3b66962c4988b04e9c4c7a86c, type: 2}
-    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: f84da54e68e6b344fa306dd1fb11717a, type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: f697ac9a0a110d2498f1de2bcba54e8b, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f877e799ebbe95146b3d74e41cc40931, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 21840f3b9611bc042960ccdace2b59b1, type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: e13ad35d42d4a97428c3300df4d70890, type: 2}
-  m_UseUCBPForAssetBundles: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fcb9c8315c4c3692068a3f3678da606bc0d3375f25aa2ae61d770e16c3db588
+size 1232

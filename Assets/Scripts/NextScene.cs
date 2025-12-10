@@ -1,23 +1,3 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-using UnityEngine.XR.Interaction.Toolkit;
-using UnityEngine.XR.Interaction.Toolkit.Interactables;
-using UnityEngine.XR.Interaction.Toolkit.Interactors;
-public class NextScene : MonoBehaviour
-{
-    private XRBaseInteractable interactable;
-    void Start()
-    {
-        interactable = GetComponent<XRBaseInteractable>();
-        interactable.hoverEntered.AddListener(loadingTime);
-    }
-
-    public void loadingTime(BaseInteractionEventArgs poke)
-    {
-        if (poke.interactableObject is XRPokeInteractor)
-        {
-            SceneManager.UnloadSceneAsync("MenuArea");
-            SceneManager.LoadScene("Playground");
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e31447b9d1ad41e545c1b2856791d5827f59c8d1927b8eb46c74926bf13c251
+size 401

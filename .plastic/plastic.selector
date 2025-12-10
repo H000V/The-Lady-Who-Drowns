@@ -1,4 +1,3 @@
 repository "The Lady Who Drowns/The Lady Who Drowns@1375852708818@cloud"
   path "/"
-    br "/main"
-    co "/main"
+    smartbranch "/main"

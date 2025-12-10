@@ -1,16 +1,3 @@
-using UnityEngine;
-using UnityEngine.XR;
-public class Bouncer : MonoBehaviour
-{
-    [SerializeField] float force = .5f;
-    void Update()
-    {
-        InputDevice leftHand = InputDevices.GetDeviceAtXRNode(XRNode.LeftHand);
-        bool xButtonPressed;
-        if (leftHand.TryGetFeatureValue(CommonUsages.primaryButton, out xButtonPressed) && xButtonPressed)
-        {
-            GetComponent<Rigidbody>()?.AddForce(Vector3.up * force, ForceMode.Impulse);
-        }
-            
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:e9a9165e19cec7e1caa9ba3221f46afa5d8b640fbb5af8dd91148aaef7b97217
+size 503

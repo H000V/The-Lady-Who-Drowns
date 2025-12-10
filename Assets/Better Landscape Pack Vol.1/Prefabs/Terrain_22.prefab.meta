@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d1dc1872130e74b4c958ac0fc5c0671a
+timeCreated: 1491613285
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 33578
+  packageName: Better Landscapes Pack Vol.1
+  packageVersion: 2.0
+  assetPath: Assets/Better Landscape Pack Vol.1/Prefabs/Terrain_22.prefab
+  uploadId: 337210

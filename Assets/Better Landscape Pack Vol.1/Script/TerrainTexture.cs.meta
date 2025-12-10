@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 463f08b0b8e5ca74198373d875ed1a70
+timeCreated: 1490896803
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 33578
+  packageName: Better Landscapes Pack Vol.1
+  packageVersion: 2.0
+  assetPath: Assets/Better Landscape Pack Vol.1/Script/TerrainTexture.cs
+  uploadId: 337210

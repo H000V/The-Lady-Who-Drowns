@@ -1,19 +1,3 @@
-#if UNITY_EDITOR
-using UnityEditor;
-using UnityEngine;
-
-[InitializeOnLoad]
-public class Startup
-{
-    static Startup()    
-    {
-        EditorPrefs.SetInt("showCounts_URPTreeModels", EditorPrefs.GetInt("showCounts_URPTreeModels") + 1);
-
-        if (EditorPrefs.GetInt("showCounts_URPTreeModels") == 1)       
-        {
-            Application.OpenURL("https://assetstore.unity.com/publishers/92929");
-            // System.IO.File.Delete("Assets/SportCar/Racing_Game.cs");
-        }
-    }     
-}
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:04c68aabfcec9aa604197047570b2189d527526bba76d4bcd0e401e533951ab8
+size 523
